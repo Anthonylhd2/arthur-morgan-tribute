@@ -1,0 +1,139 @@
+@media (max-width: 705px) {
+  .title-container > h1 {
+    font-size: 1.7em;
+  }
+}
+
+@media (max-width: 600px) {
+  #header-main {
+    flex-direction: column-reverse;
+    height: unset !important;
+    align-items: center;
+  }
+
+  #header-right,
+  #header-left {
+    max-width: 100% !important;
+  }
+
+  #header-left {
+    height: unset !important;
+    padding: 20px 0px;
+  }
+
+  #header-right {
+    height: 322px !important;
+  }
+
+  .bullet-text-container {
+    display: none !important;
+  }
+
+  .title-container {
+    text-align: center !important;
+  }
+
+  .mob-bullet-text-container {
+    display: flex !important;
+    justify-content: center;
+    min-width: 100%;
+    width: 100%;
+  }
+
+  .mob-bullet-text-subcontainer {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 70%;
+    width: 100%;
+    gap: 26px;
+    margin: 21px 0px;
+  }
+  .mob-bullet-text-subcontainer > div {
+    justify-content: flex-start;
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 40%,
+      rgba(115, 0, 0, 1) 100%
+    );
+    max-width: 300px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 13px;
+  }
+}
+
+@media (min-width: 1700px) {
+  #header-main,
+  #header-right,
+  #header-left {
+    height: 600px !important;
+  }
+
+  .title-container > h1 {
+    font-size: 55px !important;
+  }
+  .title-container > p {
+    font-size: 32px !important;
+  }
+  .bullet-img {
+    max-width: 96.8px !important;
+  }
+
+  .bullet-text-container > div > p {
+    font-size: 30px !important;
+  }
+}
+
+@media (max-width: 924px) {
+  .middle-card,
+  .middle-card .card-img {
+    max-width: 250px !important;
+  }
+  .middle-card a {
+    max-width: 150px;
+    font-size: 22px;
+  }
+  .side-card {
+    max-width: 200px;
+    height: 350px;
+  }
+  .side-card .card-img {
+    max-width: 200px;
+  }
+  .side-card p {
+    font-size: 17px !important;
+    padding: 0px 10px;
+  }
+  .middle-card {
+    height: 450px;
+  }
+}
+
+@media (max-width: 737px) {
+  #section-2-subcontainer {
+    flex-direction: column !important;
+  }
+  .side-card {
+    max-width: 70%;
+    height: 250px;
+  }
+  .middle-card {
+    height: 370px;
+    max-width: 80% !important;
+  }
+  .card .card-stylish-img {
+    max-width: 100px !important;
+  }
+}
+
+@media (max-width: 433px) {
+  .side-card .card-img {
+    max-width: 76%;
+  }
+
+  .middle-card .card-img {
+    max-width: 100% !important;
+  }
+}

@@ -1,0 +1,190 @@
+body {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 !important;
+}
+
+#header-main {
+  height: 390px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 40%,
+    rgba(115, 0, 0, 1) 100%
+  );
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#header-right,
+#header-left {
+  height: 375px;
+  max-width: 44%;
+  width: 100%;
+}
+
+#header-right {
+  background-image: url(./assets/images/arthur-nobg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: end;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img-txt-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.img-txt-container img {
+  max-width: 100px;
+}
+
+.img-txt-container p {
+  max-width: 200px;
+  color: #ff0000;
+  margin: 0;
+}
+
+.title-container {
+  text-align: left;
+  padding: 0px;
+}
+
+.title-container > h1 {
+  font-family: Cinzel Decorative, sans-serif;
+  font-weight: bold;
+  color: #e8e6e7;
+  margin-bottom: 0 !important;
+}
+.title-container > p {
+  color: #e8e6e7;
+  margin: 0px !important;
+}
+
+.bullet-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px 0px;
+}
+
+.bullet-text-container > div,
+.mob-bullet-text-subcontainer > div {
+  display: flex;
+  gap: 10px;
+}
+
+.bullet-img {
+  max-width: 58px;
+}
+.bullet-text-container > div > p,
+.mob-bullet-text-subcontainer > div > p,
+.card p {
+  color: #ff0000;
+  font-family: Rockstone;
+  font-size: 18px;
+}
+
+.mob-bullet-text-container {
+  display: none;
+}
+
+#section-2-container {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+}
+
+#section-2-subcontainer {
+  max-width: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 40%,
+    rgba(115, 0, 0, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  padding: 30px 0px;
+  gap: 10px;
+}
+
+.side-card {
+  height: 400px;
+  max-width: 250px;
+  width: 100%;
+}
+.middle-card {
+  height: 600px;
+  max-width: 350px;
+  width: 100%;
+  box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 1);
+}
+
+.card .card-img {
+  max-width: 245px;
+  border-radius: 30px;
+}
+.card .card-stylish-img {
+  max-width: 150px;
+}
+
+.middle-card .card-img {
+  max-width: 350px !important;
+}
+
+.card p {
+  text-align: center;
+  font-size: 22px !important;
+}
+
+.card a {
+  background-color: #ff0000;
+  text-align: center;
+  border-radius: 20px;
+  padding: 12px;
+  text-decoration: none;
+  color: unset;
+  cursor: pointer;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.card a:hover{
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}
+.middle-card a {
+  color: #000;
+  font-family: Rockstone;
+  font-size: 28px;
+    max-width: 250px;
+  width: 100%;
+}
+
+.side-card a {
+  color: #a1a19f;
+  font-family: Cinzel Decorative, sans-serif;
+  font-size: 15px;
+    max-width: 150px;
+  width: 100%;
+}
