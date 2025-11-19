@@ -1,6 +1,6 @@
 @media (max-width: 705px) {
-  .title-container > h1 {
-    font-size: 1.7em;
+  html{
+    font-size: 13.6px;
   }
 }
 
@@ -65,17 +65,13 @@
 }
 
 @media (min-width: 1700px) {
+  html{
+    font-size: 27.5px;
+  }
   #header-main,
   #header-right,
   #header-left {
     height: 600px !important;
-  }
-
-  .title-container > h1 {
-    font-size: 55px !important;
-  }
-  .title-container > p {
-    font-size: 32px !important;
   }
   .bullet-img {
     max-width: 96.8px !important;
@@ -84,6 +80,45 @@
   .bullet-text-container > div > p {
     font-size: 30px !important;
   }
+
+  .middle-card {
+    height: 700px;
+    max-width: 450px;
+  }
+
+  .side-card {
+    height: 450px;
+    max-width: 350px;
+  }
+
+  .card .card-img {
+    max-width: 330px;
+  }
+
+  .middle-card .card-img {
+    max-width: 430px !important;
+  }
+
+  .card .card-stylish-img {
+    max-width: 200px;
+  }
+
+  .card p {
+    text-align: center;
+    font-size: 28px !important;
+  }
+
+  .middle-card a {
+  font-size: 30px;
+  }
+
+  .side-card a {
+    font-size: 20px;
+  }
+
+  #sect-3-1, #sect-3-2, #sect-3-3 {
+  min-height: 1000px;
+}
 }
 
 @media (max-width: 924px) {

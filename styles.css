@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   max-width: 100%;
   width: 100%;
@@ -66,6 +69,7 @@ body {
 .title-container > p {
   color: #e8e6e7;
   margin: 0px !important;
+  font-size: 1.16rem;
 }
 
 .bullet-text-container {
@@ -101,7 +105,8 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin: 40px 0px;
+  padding: 40px 0px;
+  background-color: #fff;
 }
 
 #section-2-subcontainer {
@@ -167,7 +172,7 @@ body {
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
 }
-.card a:hover{
+.card a:hover {
   box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
     -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
     inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
@@ -177,7 +182,7 @@ body {
   color: #000;
   font-family: Rockstone;
   font-size: 28px;
-    max-width: 250px;
+  max-width: 250px;
   width: 100%;
 }
 
@@ -185,6 +190,98 @@ body {
   color: #a1a19f;
   font-family: Cinzel Decorative, sans-serif;
   font-size: 15px;
-    max-width: 150px;
+  max-width: 150px;
   width: 100%;
+}
+
+/* Section 3 */
+#section3-container {
+  max-width: 100%;
+  width: 100%;
+}
+
+.section3-subcontainer {
+  max-width: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.section3-subcontainer > div {
+  padding: 30px;
+  position: sticky;
+  top: 20%;
+}
+
+#sect-3-1 {
+  background-image: url(./assets/images/money-sins-bg.png);
+  min-height: 815px;
+}
+
+#sect-3-2 {
+  background-image: url(./assets/images/braithwaits-mansion-bg.jpeg);
+  min-height: 815px;
+}
+
+#sect-3-3 {
+  background-image: url(./assets/images/arthur-end.jpeg);
+  min-height: 815px;
+}
+
+.section3-separator {
+  height: 150px;
+}
+
+.section3-subcontainer .title {
+  color: #ff0000;
+  font-family: Rockstone;
+  font-size: 2rem;
+}
+
+.section3-subcontainer .text {
+  color: #fff;
+  font-size: 1.4rem;
+  font-family: Cinzel Decorative, sans-serif;
+}
+#sect-3-3 .title {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 13%, #ffb000 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 0px 20px 0px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(115, 0, 0, 1) 100%
+  );
+  color: #fff;
+  gap: 50px;
+}
+
+footer > div {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0px;
+  gap: 20px;
+}
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer-col a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer > p {
+  text-align: center;
+  margin-bottom: 0 !important;
 }
