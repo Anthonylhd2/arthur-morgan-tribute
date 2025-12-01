@@ -28,7 +28,7 @@ body {
 }
 
 #header-right {
-  background-image: url(./assets/images/arthur-nobg.png);
+  background-image: url(/assets/images/arthur-nobg.png);
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -83,6 +83,7 @@ body {
 .mob-bullet-text-subcontainer > div {
   display: flex;
   gap: 10px;
+  position: relative;
 }
 
 .bullet-img {
@@ -216,17 +217,17 @@ body {
 }
 
 #sect-3-1 {
-  background-image: url(./assets/images/money-sins-bg.png);
+  background-image: url(/assets/images/money-sins-bg.png);
   min-height: 815px;
 }
 
 #sect-3-2 {
-  background-image: url(./assets/images/braithwaits-mansion-bg.jpeg);
+  background-image: url(/assets/images/braithwaits-mansion-bg.jpeg);
   min-height: 815px;
 }
 
 #sect-3-3 {
-  background-image: url(./assets/images/arthur-end.jpeg);
+  background-image: url(/assets/images/arthur-end.jpeg);
   min-height: 815px;
 }
 
@@ -284,4 +285,51 @@ footer > div {
 footer > p {
   text-align: center;
   margin-bottom: 0 !important;
+}
+.icon {
+  cursor: pointer;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hover-text {
+  visibility: hidden;
+  background-color: gray;
+  font-size: 18px;
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+  padding: 8px;
+  position: absolute;
+  bottom: 38px;
+  left: -58px;
+  color: #000;
+  font-family: sans-serif;
+}
+.bullet-text-container > div > p:hover {
+  cursor: pointer;
+  background: linear-gradient(to right, red, gold, brown);
+  background-clip: text;
+  color: transparent;
+  background-size: 200% auto;
+  animation: gradiant-shift 1s ease infinite alternate;
+}
+
+@keyframes gradiant-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.bullet-text-container > div > .hover-p-1:hover .hover-text-1,
+.bullet-text-container > div > .hover-p-2:hover .hover-text-2,
+.bullet-text-container > div > .hover-p-3:hover .hover-text-3 {
+  visibility: visible;
 }

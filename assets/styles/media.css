@@ -1,5 +1,5 @@
 @media (max-width: 705px) {
-  html{
+  html {
     font-size: 13.6px;
   }
 }
@@ -62,10 +62,20 @@
     border-radius: 20px;
     padding: 13px;
   }
+
+  .hover-text {
+    left: 6px;
+  }
+
+  .mob-bullet-text-subcontainer > div > .hover-p-1-mob:active .hover-text-1,
+  .mob-bullet-text-subcontainer > div > .hover-p-2-mob:active .hover-text-2,
+  .mob-bullet-text-subcontainer > div > .hover-p-3-mob:active .hover-text-3 {
+    visibility: visible;
+  }
 }
 
 @media (min-width: 1700px) {
-  html{
+  html {
     font-size: 27.5px;
   }
   #header-main,
@@ -109,16 +119,18 @@
   }
 
   .middle-card a {
-  font-size: 30px;
+    font-size: 30px;
   }
 
   .side-card a {
     font-size: 20px;
   }
 
-  #sect-3-1, #sect-3-2, #sect-3-3 {
-  min-height: 1000px;
-}
+  #sect-3-1,
+  #sect-3-2,
+  #sect-3-3 {
+    min-height: 1000px;
+  }
 }
 
 @media (max-width: 924px) {
