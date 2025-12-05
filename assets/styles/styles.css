@@ -28,7 +28,7 @@ body {
 }
 
 #header-right {
-  background-image: url(/assets/images/arthur-nobg.webp);
+  background-image: url(../images/arthur-nobg.webp);
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -217,17 +217,17 @@ body {
 }
 
 #sect-3-1 {
-  background-image: url(/assets/images/money-sins-bg.webp);
+  background-image: url(../images/money-sins-bg.webp);
   min-height: 815px;
 }
 
 #sect-3-2 {
-  background-image: url(/assets/images/braithwaits-mansion-bg.webp);
+  background-image: url(../images/braithwaits-mansion-bg.webp);
   min-height: 815px;
 }
 
 #sect-3-3 {
-  background-image: url(/assets/images/arthur-end.webp);
+  background-image: url(../images/arthur-end.webp);
   min-height: 815px;
 }
 
